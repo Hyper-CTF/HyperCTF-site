@@ -2,3 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+$primary_color = #18224b;
+
+body {
+    color: $primary_color;
+}
