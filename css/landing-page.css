@@ -143,6 +143,9 @@ footer.footer {
   .cnt223 a{
   text-decoration: none;
   }
+  .glink {
+    cursor: pointer;
+  }
   .popup{
   width: 100%;
   margin: 0 auto;
