@@ -270,6 +270,7 @@
   const exp = timestamp + (60 * 60 * 24 * 1000 * 1)
   cExpires += exp.toGMTString();
   document.cookie = "HyperCTFPopUp;" ' + expires + '; path=/';
+  alert(document.cookie);
   //document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC";
   $(function () {
     var overlay = $('<div id="overlay"></div>');
