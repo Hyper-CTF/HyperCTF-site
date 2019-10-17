@@ -5,7 +5,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color:#11314a;
+    background-color: #1f292f;
 }
 
 .rule-list {
@@ -14,7 +14,7 @@ body {
 }
 
 .bg-background-color {
-    background-color: #282B30;
+    background-color: #1f292f;
 }
 
 .nav-link {
