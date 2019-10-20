@@ -203,6 +203,8 @@ body {
     .section-title-center {
         color:#FFFFFF;
         font-size: 2rem;
+        align-content: center;
+        justify-content: center;
     }
     
     .section-content {
