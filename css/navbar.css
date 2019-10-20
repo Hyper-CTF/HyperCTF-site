@@ -1,95 +1,4 @@
-html {
-    scroll-behavior: smooth;
-}
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    background-color: #1f292f;
-}
 
-.rule-list {
-    font-size: 1.7rem;
-    padding-left: 2rem;
-}
-
-.bg-background-color {
-    background-color: #1f292f;
-}
-
-.nav-link {
-    color:#ffffff;
-    font-size: 1.1rem;
-}
-
-.hero {
-    padding-top: 12rem; 
-    text-align: center; 
-    color:#FFFFFF;
-    font-weight: bold;
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-
-.h1 {
-    color:#FFFFFF;
-    font-size: 4rem;
-}
-.btn-black {
-    background-color:rgb(32, 32, 32);
-    color:#FFFF;
-}
-.innerHero {
-    color: #BDBEBF;
-}
-
-.section {
-    padding-left: 3rem;
-    text-align: left;
-    display: inline-flex;
-}
-
-.section-title {
-    color:#FFFFFF;
-    font-size: 2rem;
-    margin-left: 2rem;
-}
-
-.section-title-center {
-    color:#FFFFFF;
-    font-size: 2rem;
-}
-
-.section-content {
-    color: #BDBEBF;
-    margin-left: 2rem;
-    font-size: 1.2rem;
-    padding-top: 0.5rem;
-}
-
-.services-section {
-    margin: auto;    
-    display: block;
-    align-content: center;
-    justify-content: center;
-}
-
-.masthead {
-    overflow: hidden;
-    width: 800rem;
-    height: 42.48rem;
-}
-
-.spacer {
-    padding-bottom : 4rem;
-}
-
-.caption {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 100%;
-}
 @media only screen and (max-device-width: 1024px) {
     .show-mobile {
       display: block;
@@ -276,6 +185,98 @@ body {
 @media only screen and (min-device-width: 1025px) {
     .show-mobile {
       display: none;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        background-color: #1f292f;
+    }
+    
+    .rule-list {
+        font-size: 1.7rem;
+        padding-left: 2rem;
+    }
+    
+    .bg-background-color {
+        background-color: #1f292f;
+    }
+    
+    .nav-link {
+        color:#ffffff;
+        font-size: 1.1rem;
+    }
+    
+    .hero {
+        padding-top: 12rem; 
+        text-align: center; 
+        color:#FFFFFF;
+        font-weight: bold;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .h1 {
+        color:#FFFFFF;
+        font-size: 4rem;
+    }
+    .btn-black {
+        background-color:rgb(32, 32, 32);
+        color:#FFFF;
+    }
+    .innerHero {
+        color: #BDBEBF;
+    }
+    
+    .section {
+        padding-left: 3rem;
+        text-align: left;
+        display: inline-flex;
+    }
+    
+    .section-title {
+        color:#FFFFFF;
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .section-title-center {
+        color:#FFFFFF;
+        font-size: 2rem;
+    }
+    
+    .section-content {
+        color: #BDBEBF;
+        margin-left: 2rem;
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+    }
+    
+    .services-section {
+        margin: auto;    
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .masthead {
+        overflow: hidden;
+        width: 800rem;
+        height: 42.48rem;
+    }
+    
+    .spacer {
+        padding-bottom : 4rem;
+    }
+    
+    .caption {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        width: 100%;
     }
     .hide-mobile {
       display: block;
