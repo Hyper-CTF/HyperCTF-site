@@ -175,6 +175,12 @@
     .nav-link {
         font-size: 0.1rem;
     }
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        background-color: #1f292f;
+    }
     .hide-mobile {
       display: none;
     }
