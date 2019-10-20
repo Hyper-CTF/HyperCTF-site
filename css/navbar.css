@@ -9,8 +9,8 @@ body {
     .show-mobile {
       display: block;
       scroll-behavior: smooth;
-      padding-right: 0.4rem;
-      padding-left: 0.4rem;
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
     }
     /* Icon 1 */
 
