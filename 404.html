@@ -19,54 +19,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="d-flex w-50 order-0">
-            <a class="navbar-brand mr-1" href="/">
-                <img src="imgs/LogoIcon.svg" width="8%" alt="">
-                <h4 class="d-inline" style="color:white">HyperCTF</h4>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="hide-mobile">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="d-flex w-50 order-0">
+                <a class="navbar-brand mr-1" href="/">
+                    <img src="imgs/LogoIcon.svg" width="8%" alt="">
+                    <h4 class="d-inline" style="color:white">HyperCTF</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gamemodes">Gamemodes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rules">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://hyperctf.discourse.group/">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.reddit.com/r/hyperctf/">Subreddit</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
+        </nav>
+        <br>
+        <div style="color:white">
+            <center>
+                <p style="font-size: 4rem"><img src="imgs/error.svg" style="width:6%"> That page is not found</p>
+                <br>
+                <h3 style="color:lightgray">Run away, back to the home page, run quick!</h3>
+                <br><br>
+                <img src="imgs/4042.svg" style="width: 25%;">
+            </center>
         </div>
-        <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/gamemodes">Gamemodes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/rules">Rules</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://hyperctf.discourse.group/">Forum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.reddit.com/r/hyperctf/">Subreddit</a>
-                </li>
-            </ul>
-        </div>
-        <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
-    </nav>
-    <br>
-    <div style="color:white">
-        <center>
-            <p style="font-size: 4rem"><img src="imgs/error.svg" style="width:6%"> That page is not found</p>
-            <br>
-            <h3 style="color:lightgray">Run away, back to the home page, run quick!</h3>
-            <br><br>
-            <img src="imgs/4042.svg" style="width: 25%;">
-        </center>
-    </div>
-    <div style="padding-bottom: 4rem;"></div>
-    <section>
-        <div class="text-center" style="color:lightgray">
-            Copyright © 2018-2019 The HyperCTF Team. All rights reserved.
-        </div>
-        <div style="padding-bottom: 2rem;"></div>
-    </section>
+        <div style="padding-bottom: 4rem;"></div>
+        <section>
+            <div class="text-center" style="color:lightgray">
+                Copyright © 2018-2019 The HyperCTF Team. All rights reserved.
+            </div>
+            <div style="padding-bottom: 2rem;"></div>
+        </section>
 </body>
+</div>
 
 </html>

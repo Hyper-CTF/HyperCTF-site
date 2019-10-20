@@ -23,197 +23,231 @@
             <h4 class="d-inline" style="color:white">HyperCTF</h4>
         </a>
     </nav> -->
-
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="d-flex w-50 order-0">
-            <a class="navbar-brand mr-1" href="/">
-                <img src="imgs/LogoIcon.svg" width="8%" alt="">
-                <h4 class="d-inline" style="color:white">HyperCTF</h4>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">Home</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/gamemodes">Gamemodes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/rules">Rules</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://hyperctf.discourse.group/">Forum</a>
-                </li>
-                <li class="nav-item">
+    <div class="hide-mobile">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="d-flex w-50 order-0">
+                <a class="navbar-brand mr-1" href="/">
+                    <img src="imgs/LogoIcon.svg" width="8%" alt="">
+                    <h4 class="d-inline" style="color:white">HyperCTF</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gamemodes">Gamemodes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rules">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://hyperctf.discourse.group/">Forum</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://www.reddit.com/r/hyperctf/">Subreddit</a>
-                </li>
-            </ul>
-        </div>
-        <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
-    </nav>
+                    </li>
+                </ul>
+            </div>
+            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
+        </nav>
 
-    <section>
-        <div class="row masthead">
-            <img class="center-block" src="imgs/fbctf-header-overaly.svg">
-        </div>
+        <section>
+            <div class="row masthead">
+                <img class="center-block" src="imgs/fbctf-header-overaly.svg">
+            </div>
 
 
-        </div>
-        <div class="hero">
-            <div class="innerHero overlay caption">
-                <h1 class="h1">HyperCTF</h1>
-                <br>
-                <h3>A cybersecurity competiton created by students for students</h3>
-                <br>
-                <div class="row justify-content-center">
-                    <button onclick="scrollIntoAboutGame()" class="btn btn-lg btn-success">About The
-                        Game</button>
-                    <div style="padding-right: 0.5rem"></div>
-                    <button onclick="zenscroll.intoView(CTF)" class="btn btn-lg btn-danger" disabled>HyperCTF
-                        Game</button>
-                    <div style="padding-right: 0.5rem"></div>
-                    <a href="https://hyperctf.discourse.group/" class="btn btn-lg btn-primary">Join our Forum!</a>
-                    <div style="padding-right: 0.5rem"></div>
-                    <a href="https://hyperctf.discourse.group/" class="btn btn-lg btn-warning">Join our Subreddit!</a>
+            <div class="hero">
+                <div class="innerHero overlay caption">
+                    <h1 class="h1">HyperCTF</h1>
+                    <br>
+                    <h3>A cybersecurity competiton created by students for students</h3>
+                    <br>
+                    <div class="row justify-content-center">
+                        <button onclick="scrollIntoAboutGame()" class="btn btn-lg btn-success">About The
+                            Game</button>
+                        <div style="padding-right: 0.5rem"></div>
+                        <button onclick="zenscroll.intoView(CTF)" class="btn btn-lg btn-danger" disabled>HyperCTF
+                            Game</button>
+                        <div style="padding-right: 0.5rem"></div>
+                        <a href="https://hyperctf.discourse.group/" class="btn btn-lg btn-primary">Join our Forum!</a>
+                        <div style="padding-right: 0.5rem"></div>
+                        <a href="https://hyperctf.discourse.group/" class="btn btn-lg btn-warning">Join our
+                            Subreddit!</a>
 
-                    <!-- <button data-toggle="modal" data-target="#MailingList" class=" btn btn-lg btn-warning">Join Our
+                        <!-- <button data-toggle="modal" data-target="#MailingList" class=" btn btn-lg btn-warning">Join Our
                         Mailing
                         List</button> -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="spacer">
-        <div class="row" id="AboutTheGame">
-            <div class="col-sm" style="color:white">
-                <br><br><br><br><br>
-                <div class="section-title">What is a CTF</div>
-                <div class="section-content">
-                    A CTF, or capture-the-flag is a cybersecurity and computer science competition intended as practice
-                    to real life cyber-warfare scenarios that could potentially occur in the real world. CTF
-                    cybersecurity competitions are run around the world every day for many different reasons. Some of
-                    them are for fun, some for company recruitment, and some for education.
-                </div>
-            </div>
-            <div class="col-sm" style="color:white">
-                <img class="services-section" src="imgs/c1.png" style="height:35rem; padding-bottom: 4rem"></img>
-            </div>
-        </div>
-    </section>
-    <section class="spacer">
-        <div class="row" id="AboutChallenges">
-            <div class="col-sm" style="color:white">
-                <img class="services-section" src="imgs/c2.png" style="height:35rem; padding-bottom: 4rem"></img>
-            </div>
-            <div class="col-sm" style="color:white">
-                <br><br><br><br><br>
-                <div class="section-title">The Challenges</div>
-                <div class="section-content">
-                    The challenges in HyperCTF range from easy to hard so even if you don't know anything about
-                    cybersecurity you can still play and learn. HyperCTF challenges are also created with the players
-                    who have competed before in mind. Because of this we have created some very challenging challenges
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="spacer">
-        <div class="row" id="AboutTeam">
-            <div class="col-sm" style="color:white">
-                <br><br><br><br><br>
-                <div class="section-title">The Team</div>
-                <div class="section-content">
-                    The HyperCTF team consists of 3 high school students who wish to give aspiring cybersecurity
-                    engineers the tools necessary to be able to go into the field. To do this they have created
-                    HyperCTF.
-                </div>
-            </div>
-            <div class="col-sm" style="color:white">
-                <img class="services-section" src="imgs/c3.png" style="height:32rem; padding-bottom: 4rem"></img>
-            </div>
-        </div>
-    </section>
-    <section class="text-center spacer">
-        <div class="container">
-            <h2 class="mb-5 section-title-center">The Team</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 section-content">
-                        <img src="fa/svgs/regular/user.svg" style="height:8rem">
-                        <h5 style="padding-top:10%">Gabriel D.</h5>
-                        <p class="font-weight-light mb-0">Challenge Creator</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 section-content">
-                        <img src="fa/svgs/regular/user.svg" style="height:8rem">
-                        <h5 style="padding-top:10%">Arjun B.</h5>
-                        <p class="font-weight-light mb-0">Challenge Creator</p>
+        </section>
+        <section class="spacer">
+            <div class="row" id="AboutTheGame">
+                <div class="col-sm" style="color:white">
+                    <br><br><br><br><br>
+                    <div class="section-title">What is a CTF</div>
+                    <div class="section-content">
+                        A CTF, or capture-the-flag is a cybersecurity and computer science competition intended as
+                        practice
+                        to real life cyber-warfare scenarios that could potentially occur in the real world. CTF
+                        cybersecurity competitions are run around the world every day for many different reasons. Some
+                        of
+                        them are for fun, some for company recruitment, and some for education.
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 section-content">
-                        <img src="fa/svgs/regular/user.svg" style="height:8rem">
-                        <h5 style="padding-top:10%">Sri K.</h5>
-                        <p class="font-weight-light mb-0">Challenge Creator</p>
+                <div class="col-sm" style="color:white">
+                    <img class="services-section" src="imgs/c1.png" style="height:35rem; padding-bottom: 4rem"></img>
+                </div>
+            </div>
+        </section>
+        <section class="spacer">
+            <div class="row" id="AboutChallenges">
+                <div class="col-sm" style="color:white">
+                    <img class="services-section" src="imgs/c2.png" style="height:35rem; padding-bottom: 4rem"></img>
+                </div>
+                <div class="col-sm" style="color:white">
+                    <br><br><br><br><br>
+                    <div class="section-title">The Challenges</div>
+                    <div class="section-content">
+                        The challenges in HyperCTF range from easy to hard so even if you don't know anything about
+                        cybersecurity you can still play and learn. HyperCTF challenges are also created with the
+                        players
+                        who have competed before in mind. Because of this we have created some very challenging
+                        challenges
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="text-center" style="color:lightgray">
-            Copyright © 2018-2019 The HyperCTF Team. All rights reserved.
-        </div>
-    </section>
-    <div style="padding-bottom: 2rem;"></div>
-    <div class="modal fade" id="MailingList">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <h4 class="modal-title">Join Our Mailing List!</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </section>
+        <section class="spacer">
+            <div class="row" id="AboutTeam">
+                <div class="col-sm" style="color:white">
+                    <br><br><br><br><br>
+                    <div class="section-title">The Team</div>
+                    <div class="section-content">
+                        The HyperCTF team consists of 3 high school students who wish to give aspiring cybersecurity
+                        engineers the tools necessary to be able to go into the field. To do this they have created
+                        HyperCTF.
+                    </div>
                 </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="https://hyperctf.us7.list-manage.com/subscribe/post" method="POST">
-                        <input type="hidden" name="u" value="c3dd29f4b898d15ec8c8fef64">
-                        <input type="hidden" name="id" value="57ca87514d">
-                        <form
-                            action="https://hyperctf.us7.list-manage.com/subscribe/post?u=c3dd29f4b898d15ec8c8fef64&amp;id=57ca87514d"
-                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                            class="validate" target="_blank" novalidate>
-                            <div class="row">
-                                <input type="email" class="form-control form-control-lg" value=""
-                                    placeholder="Enter your email..." name="MERGE0" id="MERGE0" autocapitalize="off">
-                                <div
-                                    style="padding-bottom: 0.3rem; padding-right: 2rem; padding-left:1rem; color: white">
-                                </div>
-                                <button type="submit" class="btn btn-block btn-primary">Sign up!</button>
-                                <div class="modal-footer">
-                        </form>
+                <div class="col-sm" style="color:white">
+                    <img class="services-section" src="imgs/c3.png" style="height:32rem; padding-bottom: 4rem"></img>
                 </div>
-
             </div>
-        </div>
+        </section>
+        <section class="text-center spacer">
+            <div class="container">
+                <h2 class="mb-5 section-title-center">The Team</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0 section-content">
+                            <img src="fa/svgs/regular/user.svg" style="height:8rem">
+                            <h5 style="padding-top:10%">Gabriel D.</h5>
+                            <p class="font-weight-light mb-0">Challenge Creator</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0 section-content">
+                            <img src="fa/svgs/regular/user.svg" style="height:8rem">
+                            <h5 style="padding-top:10%">Arjun B.</h5>
+                            <p class="font-weight-light mb-0">Challenge Creator</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0 section-content">
+                            <img src="fa/svgs/regular/user.svg" style="height:8rem">
+                            <h5 style="padding-top:10%">Sri K.</h5>
+                            <p class="font-weight-light mb-0">Challenge Creator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="text-center" style="color:lightgray">
+                Copyright © 2018-2019 The HyperCTF Team. All rights reserved.
+            </div>
+        </section>
+        <div style="padding-bottom: 2rem;"></div>
+        <!-- <div class="modal fade" id="MailingList">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h4 class="modal-title">Join Our Mailing List!</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="https://hyperctf.us7.list-manage.com/subscribe/post" method="POST">
+                            <input type="hidden" name="u" value="c3dd29f4b898d15ec8c8fef64">
+                            <input type="hidden" name="id" value="57ca87514d">
+                            <form
+                                action="https://hyperctf.us7.list-manage.com/subscribe/post?u=c3dd29f4b898d15ec8c8fef64&amp;id=57ca87514d"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank" novalidate>
+                                <div class="row">
+                                    <input type="email" class="form-control form-control-lg" value=""
+                                        placeholder="Enter your email..." name="MERGE0" id="MERGE0"
+                                        autocapitalize="off">
+                                    <div
+                                        style="padding-bottom: 0.3rem; padding-right: 2rem; padding-left:1rem; color: white">
+                                    </div>
+                                    <button type="submit" class="btn btn-block btn-primary">Sign up!</button>
+                                    <div class="modal-footer">
+                            </form>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
     </div>
-    <!-- <section>
-        <div class="section" id="about">
-            <div class="section-left">
-                <h4 class="section-title">What is a CTF?</h4>
+    <div class="show-mobile">
+        <!--Navbar-->
+        <nav class="navbar navbar-dark  indigo darken-2">
+
+            <!-- Navbar brand -->
+            <div class="d-flex w-50 order-0">
+                <a class="navbar-brand mr-1" href="/">
+                    <img src="imgs/LogoIcon.svg" width="15%" alt="">
+                    <h1 class="d-inline" style="color:white">HyperCTF</h1>
+                </a>
             </div>
-            <div class="section-content section-left column">
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler third-button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div class="animated-icon3"><span></span><span></span><span></span></div>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
             </div>
-            <div class="section-content section-right column">
-                <img src="imgs/challenge.png"></img>
-            </div>
-        </div>
-    </section> -->
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+    </div>
     <script src="js/zenscroll-min.js"></script>
     <script>
         var AboutTheGame = document.getElementById("AboutTheGame")
@@ -225,4 +259,20 @@
             zenscroll.intoView(AboutChallenges)
         }
     </script>
+    <script>
+        $(document).ready(function () {
+
+            $('.first-button').on('click', function () {
+
+                $('.animated-icon1').toggleClass('open');
+            });
+            $('.second-button').on('click', function () {
+
+                $('.animated-icon2').toggleClass('open');
+            });
+            $('.third-button').on('click', function () {
+
+                $('.animated-icon3').toggleClass('open');
+            });
+        });</script>
 </body>
