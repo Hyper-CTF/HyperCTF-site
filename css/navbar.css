@@ -181,6 +181,31 @@ body {
     .nav-link {
         font-size: 1.5rem;
     }
+    .section {
+        padding-left: 0.5rem;
+        text-align: left;
+        display: inline-flex;
+    }
+    
+    .section-title {
+        color:#FFFFFF;
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+    
+    .section-title-center {
+        color:#FFFFFF;
+        font-size: 2rem;
+    }
+    
+    .section-content {
+        color: #BDBEBF;
+        margin-left: 2rem;
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+    }
+    
+
     .hide-mobile {
       display: none;
     }
