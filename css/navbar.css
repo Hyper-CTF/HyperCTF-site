@@ -8,6 +8,7 @@ body {
 @media only screen and (max-device-width: 1024px) {
     .show-mobile {
       display: block;
+      scroll-behavior: smooth;
     }
     /* Icon 1 */
 
@@ -30,6 +31,7 @@ body {
     .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
         display: block;
         position: absolute;
+        scroll-behavior: smooth;
         height: 3px;
         width: 100%;
         border-radius: 9px;
@@ -182,17 +184,20 @@ body {
         font-size: 1.5rem;
     }
     .section {
-        padding-left: 0.5rem;
-        text-align: left;
-        display: inline-flex;
+        text-align: center;
+        display: block;
     }
     
     .section-title {
         color:#FFFFFF;
         font-size: 2rem;
-        margin-left: 0.5rem;
     }
-    
+    .section-content-nomove {
+        color: #BDBEBF;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
     .section-title-center {
         color:#FFFFFF;
         font-size: 2rem;
@@ -200,11 +205,14 @@ body {
     
     .section-content {
         color: #BDBEBF;
-        margin-left: 2rem;
         font-size: 1.2rem;
         padding-top: 0.5rem;
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
     }
-    
+    .spacer {
+        padding-bottom : 4rem;
+    }
 
     .hide-mobile {
       display: none;
